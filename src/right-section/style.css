@@ -1,0 +1,30 @@
+/* "box-colors":{
+    1: "",
+    2: "",
+    3: "hsl(166, 100%, 37%)",
+    4: "hsl(234, 85%, 45%)",
+}, */
+.text-box-color-1{
+    @apply text-box-colors-1
+}
+.text-box-color-2{
+    @apply text-box-colors-2
+}
+.text-box-color-3{
+    @apply text-box-colors-3
+}
+.text-box-color-4{
+    @apply text-box-colors-4
+}
+.bg-box-color-1{
+    @apply bg-box-colors-1/[0.05]
+}
+.bg-box-color-2{
+    @apply bg-box-colors-2/[0.05]
+}
+.bg-box-color-3{
+    @apply bg-box-colors-3/[0.05]
+}
+.bg-box-color-4{
+    @apply bg-box-colors-4/[0.05]
+}

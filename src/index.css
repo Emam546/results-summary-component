@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+:root {
+    font-size: calc(1rem * (18/16));
+}
+
+html {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.bg-primary {
+    --tw-gradient-from: #7857ff;
+    --tw-gradient-to: #2e2be9;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) 40%;
+}
+
+.circle-gradient {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)  );
+}

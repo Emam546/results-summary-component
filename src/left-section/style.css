@@ -1,0 +1,18 @@
+
+.animation-great{
+    scale: 0;
+    animation-name: anim-scaling;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-duration: 0.5s;
+    
+}
+@keyframes anim-scaling{
+    0%{
+        scale:0;
+    }
+    100%{
+        scale: 1;
+    }
+}
